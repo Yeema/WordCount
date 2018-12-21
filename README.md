@@ -1,6 +1,9 @@
 # WordCount
 1. Goal : using hadoop to calculate the occurrences of each start letter and assign each job to corresponded reducer
-2. Implementation : customized partitioner and comparator 
+2. Implementation : 
+ * mapper
+ * reducer
+ * customized partitioner and comparator 
 ## Calculate occurrences of each start letter 
   * Words are separated by white characters 
   * Ignore words that are not started by an alphabet 
