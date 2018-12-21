@@ -5,7 +5,7 @@
   * Use 2 reducers, first reducer process words start with Aa~Gg, and second reducer process remaining words 
   * Result should be case sensitive
   * Sort by A → a → B → b ....
-  
+  ![image](https://github.com/Yeema/WordCount/blob/master/螢幕快照%202018-12-21%20下午4.23.14.png)
 2. Components
   * Mapper: generate <K, V> pair 
   * src/WordCountMapper.java
