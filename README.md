@@ -1,12 +1,13 @@
 # WordCount
-1. Calculate occurrences of each start letter 
+using hadoop to calculate the occurrences of each start letter and assign each job to corresponded reducer
+## Calculate occurrences of each start letter 
   * Words are separated by white characters 
   * Ignore words that are not started by an alphabet 
   * Use 2 reducers, first reducer process words start with Aa~Gg, and second reducer process remaining words 
   * Result should be case sensitive
   * Sort by A → a → B → b ....
   ![image](https://github.com/Yeema/WordCount/blob/master/螢幕快照%202018-12-21%20下午4.23.14.png)
-2. Components
+## Components
   * Mapper: generate <K, V> pair 
   * src/WordCountMapper.java
   * Partitioner : assign specific job to each reduce
@@ -19,7 +20,7 @@
   * Reducer: aggregate value of same key and output final result
   * src/WordCountReducer.java
 
-3. Execution (in WordCount/)
+## Execution (in WordCount/)
   * make clean; 
   
     make
